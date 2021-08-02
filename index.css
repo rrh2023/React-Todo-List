@@ -1,0 +1,43 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(255, 10, 10)
+  );
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(141, 5, 5);
+  margin: 100px 50px 100px 50px;
+  border-radius: 12px;
+}
+
+button {
+  border-radius: 12px;
+  padding: 3px;
+}
+
+input {
+  width: 300px;
+  border-radius: 12px;
+  height: 25px;
+  padding: 3px;
+  margin: 3px;
+}
+
+.icon {
+  cursor: pointer;
+  float: right;
+}
+
+li {
+  width: 100%;
+}
